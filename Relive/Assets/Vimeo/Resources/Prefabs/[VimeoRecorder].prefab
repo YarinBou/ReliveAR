@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1632233500069416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224861955090669034}
+  - component: {fileID: 114381909144653884}
+  m_Layer: 0
+  m_Name: '[VimeoRecorder]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: f769f33aff14dac43a5e2a682eaf1b33, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224861955090669034
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632233500069416}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 883, y: 497}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114381909144653884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632233500069416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 440baa8f86681074b8944952013cb091, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uid: 78267666-6cad-4756-bbb9-8a6a748ba876
+  currentVideo:
+    name: 
+    uri: 
+    tusUploadLink: 
+    id: 0
+    description: 
+    duration: 0
+    width: 0
+    height: 0
+    is3D: 0
+    stereoFormat: 
+    projection: 
+  vimeoVideos: []
+  currentFolder:
+    name: 
+    uri: 
+    id: 0
+  vimeoFolders: []
+  vimeoToken: 
+  buildMode: 0
+  vimeoSignIn: 1
+  signInError: 0
+  encoderType: 1
+  encoder: {fileID: 0}
+  renderTextureTarget: {fileID: 0}
+  privacyMode: 0
+  commentMode: 0
+  enableDownloads: 1
+  enableReviewPage: 1
+  defaultShareLink: 0
+  defaultVideoInput: 0
+  defaultCamera: 0
+  defaultCamera360: 0
+  defaultRenderMode360: 1
+  defaultResolution: 0
+  defaultAspectRatio: 0
+  recordMode: 0
+  recordDuration: 5
+  recordAudio: 1
+  realTime: 0
+  frameRate: 30
+  recordOnStart: 0
+  openInBrowser: 1
+  autoUpload: 1
+  captureLookingGlassRT: 0
+  videoName: Unity Recording
+  videoPermalink: 
+  videoPassword: 
+  videoReviewPermalink: 
+  publisher: {fileID: 0}
+  isRecording: 0
+  isUploading: 0
+  uploadProgress: 0
